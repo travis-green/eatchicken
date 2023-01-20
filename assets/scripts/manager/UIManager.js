@@ -116,6 +116,7 @@ cc.Class({
         }, function (err, prefabs) {
             let names = Object.keys(PREFAB_PATH);
             //for (let i in prefabs) {
+			//  加载全部场景fab
             for (let i = 0; i < prefabCount; i++) {
                 this._Prefabs[names[i]] = prefabs[i];
             }
@@ -188,7 +189,7 @@ cc.Class({
     },
 
     showUI(name, cb) {
-        console.log('showUI');
+        console.log('showUI', name);
         //未加载
         if (this._curName == name) {
             console.log("---showUI.repeat----")

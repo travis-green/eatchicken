@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "c5500c7c-a269-4411-9267-3f11b2841908",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "yellowBMFont": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "93c42697-1538-4f9e-90a0-ff6b7666b423",
+      "importer": "sprite-frame",
       "rawTextureUuid": "c5500c7c-a269-4411-9267-3f11b2841908",
       "trimType": "auto",
       "trimThreshold": 1,

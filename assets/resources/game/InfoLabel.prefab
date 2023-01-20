@@ -87,6 +87,7 @@
     "_N$horizontalAlign": 0,
     "_N$fontSize": 25,
     "_N$font": null,
+    "_N$cacheMode": 0,
     "_N$maxWidth": 0,
     "_N$lineHeight": 40,
     "_N$imageAtlas": null,
@@ -99,9 +100,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "2add12eb-2328-4777-8042-a445c9b284bf"
+      "__id__": 0
     },
-    "fileId": "47/cf8wUJP/qSCmw/KGE+6",
+    "fileId": "",
     "sync": false
   }
 ]

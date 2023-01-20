@@ -41,15 +41,25 @@
   "xxteaKey": "b03949a7-ee19-48",
   "zipCompressJs": true,
   "android": {
-    "packageName": "com.min.EatChicken"
+    "packageName": "com.min.EatChicken",
+    "REMOTE_SERVER_ROOT": ""
   },
   "ios": {
-    "packageName": "org.cocos2d.Path"
+    "packageName": "org.cocos2d.Path",
+    "REMOTE_SERVER_ROOT": "",
+    "ios_enable_jit": true
   },
   "mac": {
-    "packageName": "org.cocos2d.Path"
+    "packageName": "org.cocos2d.Path",
+    "REMOTE_SERVER_ROOT": "",
+    "width": 1280,
+    "height": 720
   },
-  "win32": {},
+  "win32": {
+    "REMOTE_SERVER_ROOT": "",
+    "width": 1280,
+    "height": 720
+  },
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
     "host": "",
@@ -59,5 +69,12 @@
     "scheme": "https",
     "skipRecord": false
   },
-  "appBundle": false
+  "appBundle": false,
+  "mainCompressionType": "subpackage",
+  "mainIsRemote": false,
+  "nativeMd5Cache": true,
+  "agreements": {
+    "20200904180755": false,
+    "20220901093235": false
+  }
 }

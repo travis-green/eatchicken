@@ -1,5 +1,6 @@
 {
-  "ver": "2.0.3",
+  "ver": "2.0.5",
   "uuid": "b2072256-9ef9-4b4a-bae3-afeda5963b64",
+  "importer": "tiled-map",
   "subMetas": {}
 }

@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "9723e75b-1401-4c07-9f23-ffe136e51896",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "TextAtlas": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "4d75224e-ed4c-4e87-8aa3-1c7fe8e8cd96",
+      "importer": "sprite-frame",
       "rawTextureUuid": "9723e75b-1401-4c07-9f23-ffe136e51896",
       "trimType": "auto",
       "trimThreshold": 1,

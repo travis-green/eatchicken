@@ -1,3 +1,4 @@
+const { log } = require("console");
 
 cc.Class({
     extends: cc.Component,
@@ -26,8 +27,13 @@ cc.Class({
             case 3: this.planeNode.runAction(cc.moveTo(5, this.mapNode.children[1].position)); break;
         }
         GameApp.audioManager.playEffect('plane', 1, 2)
+		setTimeout(()=>{
+			this.jumpBtnClick()
+		},2000)
     },
-    // update (dt) {},
+    update (dt) {
+		// cc.log(this.planeNode.getPosition())
+	},
     jumpBtnClick() {
         GameApp.audioManager.playEffect('click')
         this.planeNode.stopAllActions()

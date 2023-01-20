@@ -62,7 +62,8 @@
     "3D Primitive",
     "3D Physics/cannon.js",
     "3D Physics/Builtin",
-    "3D Particle"
+    "3D Particle",
+    "SafeArea"
   ],
   "fit-height": true,
   "fit-width": false,
@@ -76,12 +77,12 @@
   ],
   "simulator-orientation": true,
   "simulator-resolution": {
-    "height": 640,
-    "width": 1136
+    "width": 1136,
+    "height": 640
   },
   "use-customize-simulator": true,
   "use-project-simulator-setting": true,
-  "last-module-event-record-time": 1592982591007,
+  "last-module-event-record-time": 1668404412408,
   "assets-sort-type": "name",
   "facebook": {
     "appID": "",
@@ -93,5 +94,10 @@
       "enable": false
     }
   },
-  "start-scene": "177c8ce7-7d64-49ef-bc59-05008be7115c"
+  "start-scene": "177c8ce7-7d64-49ef-bc59-05008be7115c",
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "preview-port": 7456,
+  "clear-simulator-cache": true
 }
